@@ -1,0 +1,16 @@
+.centeredtext {
+    text-align: center;
+    border-collapse: collapse;
+}
+.lefttext {
+    text-align: left;
+}
+.changeblock {
+    color: white;
+    background: green;
+}
+.war-end {
+    color:blue;
+    border: thick double black;
+}
+
