@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'Lato';
+    src: url(../fonts/Lato-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../fonts/Lato-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Slim Joe';
+    src: url(../fonts/Slim-Joe.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BIG JOHN';
+    src: url(../fonts/BIG-JOHN.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*header style*/
+
+.app-header {
+    height: 650px;
+    background-image: url(../images/topbackground.png);
+    background-position: center;
+}
+
+.app-header-imposition {
+    background: rgba(0, 20, 40, .7);
+    height: inherit;
+}
+
+.app-header_wrapper {
+    width: 1140px;
+    height: 100%;
+    margin: auto;
+}
+
+.foliac-logo {
+    float: left;
+    margin-top: 35px;
+}
+
+.navigation-bar {
+    float: right;
+    margin-top: 77px;
+    list-style-type: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navigation-bar-item {
+    color: #656e76;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.navigation-bar-section {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header-text {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.line1-bold {
+    font-family: 'BIG JOHN', sans-serif;
+    padding-top: 293px;
+    margin: 0;
+    font-size: 35px;
+}
+
+.line2 {
+    font-family: 'Slim Joe', sans-serif;
+    font-size: 23px;
+}
+    
+.header-button {
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #48bf72;
+    padding: 10px 20px;
+    border: 2px solid #48bf72;
+    border-radius: 3px;
+    background: inherit;
+    margin-top: 30px;
+}
+
+/*form style*/
+
+.contact_form {
+    width: 500px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.form__title, .submit_input {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+.name_input {
+    float: left;
+    width: 40%;
+    margin-bottom: 15px;
+}
+
+.email_input {
+    float: right;
+    width: 40%;
+  margin-bottom: 15px;
+}
+
+.messge_input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.submit_input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+/*footer style*/
+.app-footer {
+    height: 200px;
+    background: #3c4955;
+}
+
+.app-footer_wrapper {
+    width: 1140px;
+    height: 100%;
+    margin: auto;
+}
+
+.copyright {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    float: left;
+    margin-top: 90px;
+}
+
+.beneggen-link {
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.social-media-links {
+    float: right;
+    margin-top: 75px;
+}
+
+.behance-logo {
+    margin-left: 40px;
+}
+
+.dribbble-logo {
+    margin-left: 40px;
+}
+
+.linkedin-logo {
+    margin-left: 40px;
+}
